@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Level mark: an equals sign. Two bars of the same length, the same weight. -->
+  <rect width="1024" height="1024" fill="#FBF7F2"/>
+  <rect x="232" y="352" width="560" height="112" rx="56" fill="#A84E2F"/>
+  <rect x="232" y="560" width="560" height="112" rx="56" fill="#A84E2F"/>
+</svg>

@@ -1,18 +1,18 @@
 {
   "expo": {
-    "name": "social-media",
-    "slug": "social-media",
-    "version": "1.0.0",
+    "name": "Level",
+    "slug": "level",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "socialmedia",
+    "scheme": "level",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FBF7F2",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -28,9 +28,18 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#FBF7F2",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 120,
+          "dark": {
+            "backgroundColor": "#1A1614"
+          }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Level shows your photo library so you can pick a photo to post to your circle."
         }
       ]
     ],
